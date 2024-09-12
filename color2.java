@@ -201,6 +201,8 @@ public class color2 extends JFrame {
 
     private void begin() {
         try {
+            System.out.println("test it");
+            System.out.println("Nilesh");
             delta = Integer.parseInt(jDelta.getText());
             abs = Integer.parseInt(jAbs.getText());
             removeBlackPixel = Integer.parseInt(jRemoveBlackPixel.getText());
